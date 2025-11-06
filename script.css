@@ -2,39 +2,42 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 20px;
 }
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgba(4, 247, 93, 0.913);
-    color: #333333;
+    background-color: rgba(96, 4, 245, 0.913);
+    color: #333;
     line-height: 1.6;
+    height: 20vh;
+    
+
 }
 .navbar{
     display: flex;
     justify-content: space-between;
     text-align: center;
-    background-color: #333;
-    color: #e6e0e0;
-    padding: 1.5rem 10%;
+    background-color: rgb(169, 225, 174);
+    color: #f9f9f9;
+    padding: 0.5rem 10%;
     position: relative;
 }
-.logo{
-    font-size: 1.5rem;
+.log{
+    font-size: 2.5rem;
     font-weight: bold;
 }
 .navbar a{
     text-decoration: none;
     color: white;
-    font-size: 500;
+    font-size: 300;
     transition: color .3s;
-
 }
 .navbar a:hover{
     color: blue;
 }
 .nav link{
     display: flex;
-    gap: 2rem;
+    gap: 5rem;
 }
 .hero-c{
     display: flex;
@@ -45,25 +48,23 @@ body{
     display: flex;
     flex: 1 1 40;
     justify-content: center;
-
 }
 .hero-img img{
     width: 80%;
     height: 80%;
     max-width: auto;
     border-radius: 20px;
-    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.3)
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
-.hero-text {
+.hero-text{
     flex: 1 1 50%;
     color: white;
     flex-wrap: wrap;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 .hero-text h{
     font-size: 3rem;
     margin-bottom: 1.2rem;
-
 }
 .hero-text p{
     font-size: 1.2rem;
